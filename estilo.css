@@ -1,0 +1,103 @@
+body {
+    background: linen;
+}
+
+fieldset {
+    border: 3px solid darkcyan;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: darkblue;
+    font-size: 30px;
+}
+
+label {
+    display: block;
+    color: darkblue;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+    border: 3px solid darkcyan;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button[type="submit"] {
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 3px solid darkblue;
+    cursor: pointer;
+}
+
+/* Estilos para el botón de diálogo */
+#borrar {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 3px solid darkred;
+
+}
+
+/* Estilos para el diálogo */
+dialog {
+    margin-top: 10px;
+    border: 1px solid lightcoral;
+    background: lightpink;
+    padding: 10px;
+}
+
+#cancelar {
+    border: 3px solid darkred;
+    background: red;
+    color: white;
+}
+
+#aceptar {
+    border: 3px solid darkgreen;
+    background: green;
+    color: white;
+    margin-right: 80px;
+}
+
+summary {
+    color: darkblue;
+}
+
+#ayuda {
+    color: white;
+    background: darkblue;
+    border: 3px solid darkcyan;
+    padding: 10px;
+    
+}
+
+/* Estilos diferentes según el navegador */
+/* Chrome */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+/* Firefox */
+@-moz-document url-prefix() {
+    body {
+        background-color: lightgreen;
+    }
+}
